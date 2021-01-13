@@ -1,3 +1,5 @@
+//难度-中等
+//图论题，去除图中一边使其无环路，并查集可解
 class Solution {
 public:
     int Find(vector<int>& parent, int index) {
