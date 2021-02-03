@@ -1,3 +1,5 @@
+//难度-困难
+//滑动窗口求中位数，用两个优先队列维护窗口里大小两部分，利用堆顶求中位数，用map记录某元素延迟删除次数，当它到堆顶时进行删除以免影响求中位数
 class Solution {
 public:
     priority_queue<int> small;
